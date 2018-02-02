@@ -38,4 +38,3 @@ console.log(james);
 //console.log(james.lastName);
 //this is to call the property 'cars' and the index 2 and return 'Rolls royce'
 //console.log(james.cars[2]);
-/*
