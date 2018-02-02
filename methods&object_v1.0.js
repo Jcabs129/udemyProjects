@@ -1,6 +1,7 @@
 //////////////////////////////
 // Lecture: Objects and methods
 
+////v.1.0
 
 var james = {
     name: 'Billy',
@@ -12,10 +13,11 @@ var james = {
     //function expressions: a variable inside an object which is assign to a function
     calculateAge: function()/*(yearOfBirth)*/ {
 //this refers to the object 'john' that has to calculate the method
-      return 2018 - this.yearOfBirth /*yearOfBirth;*/
+      return 2018 - this.yearOfBirth //yearOfBirth;
 
     }
-}; 
+};
+
 /////
 //part2 - how to use this line inside the METHOD/Object
 
@@ -36,3 +38,4 @@ console.log(james);
 //console.log(james.lastName);
 //this is to call the property 'cars' and the index 2 and return 'Rolls royce'
 //console.log(james.cars[2]);
+/*
