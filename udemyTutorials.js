@@ -15,7 +15,7 @@ var james = {
       return 2018 - this.yearOfBirth /*yearOfBirth;*/
 
     }
-};
+}; 
 /////
 //part2 - how to use this line inside the METHOD/Object
 
